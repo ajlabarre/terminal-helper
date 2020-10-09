@@ -27,8 +27,6 @@ fi
 if [ "$color_prompt" = yes ]; then
     #  SETUP CONSTANTS
     #  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
-    #  I don't remember where I found this.  o_O
-    # Reset
     Color_Off="\[\033[0m\]"       # Text Reset
     # Regular Colors
     Black="\[\033[0;30m\]"        # Black
@@ -141,7 +139,6 @@ if [ "$color_prompt" = yes ]; then
             fi
     }
 else
-    # boring.....
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
