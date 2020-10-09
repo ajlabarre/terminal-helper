@@ -129,6 +129,7 @@ if [ "$color_prompt" = yes ]; then
       # @1 - Prompt when no git
       echo "'$BGreen'\$ '$Color_Off'"; \
     fi)'
+    
     # Git Branch Parsing
     parse_git_branch ()
     {
